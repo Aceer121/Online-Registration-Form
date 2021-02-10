@@ -1,0 +1,86 @@
+
+
+  @media (min-width:768px)  {
+  /* Attribute Selectors ------------- */
+.form-contact {
+padding: 20px 24px;
+}
+
+h1, .p {
+  margin: 0 0 30px 0;
+   text-align: center;
+}
+
+#container {
+  max-width: 500px;
+  margin: auto;
+
+  }
+
+input[placeholder],
+input[type="tel"],
+input[type="street"],
+input[type="city"],
+input[type="zip"],
+textarea,
+select {
+border: none;
+font-size: 16px;
+height: auto;
+margin: 6px;
+outline: 0;
+padding: 10px;
+width: 100%;
+background: #e8eeef;
+box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+ margin-bottom: 30px;
+  }
+
+input[type="checkbox"],
+input[type="radio"],
+button[type="submit"] {
+background: #52bab3;
+cursor: pointer;
+  }
+
+input[type="checkbox"],
+input[type="radio"] {
+font-weight: bold;
+ margin: 0 4px 8px 0;
+}
+
+/*DRY CLASS------------- */
+
+  .br  {
+border-radius: .5em;
+  }
+
+button  {
+cursor: pointer;
+font-style: .875em;
+font-weight: 400;
+color: #fff;
+padding-left: 20px;
+padding-right: 20px;
+text-transform: uppercase;
+  }
+
+button:hover  {
+opacity: .75;
+}
+
+}
+/*Combinators------------- */
+
+form > a {
+font-size: .7em;
+}
+
+/* =================================
+  Flexbox
+==================================== */
+.contaner,
+.container-2  {
+display: flex;
+flex-direction: column;
+}
