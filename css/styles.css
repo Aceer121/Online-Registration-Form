@@ -3,19 +3,54 @@
   @media (min-width:768px)  {
   /* Attribute Selectors ------------- */
 .form-contact {
-padding: 20px 24px;
+  max-width: 300px;
+ margin: 10px auto;
+ padding: 10px 20px;
+ border-radius: 8px;
+  }
+
+
+.code  {
+background-color: #000;
+margin: -10%;
+padding: 10px;
 }
 
-h1, .p {
+.title  {
+color: #fff;
+margin: 15px;
+}
+
+h1, p {
   margin: 0 0 30px 0;
    text-align: center;
 }
 
+
+
+p {
+width: 90%;
+}
+
+
+
+
 #container {
-  max-width: 500px;
-  margin: auto;
+  width:80%;
+  margin:0;
 
   }
+
+  #bio {
+    height: 200px;
+    width: 800px;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+
 
 input[placeholder],
 input[type="tel"],
@@ -30,17 +65,18 @@ height: auto;
 margin: 6px;
 outline: 0;
 padding: 10px;
-width: 100%;
+width: 85%;
 background: #e8eeef;
 box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
  margin-bottom: 30px;
-  }
+}
 
 input[type="checkbox"],
 input[type="radio"],
 button[type="submit"] {
 background: #52bab3;
 cursor: pointer;
+text-align: center;
   }
 
 input[type="checkbox"],
@@ -63,6 +99,10 @@ color: #fff;
 padding-left: 20px;
 padding-right: 20px;
 text-transform: uppercase;
+height: 60px;
+width: 250px;
+border-radius: 5px;
+border: 1px solid #52bab3;
   }
 
 button:hover  {
@@ -76,11 +116,17 @@ form > a {
 font-size: .7em;
 }
 
+.copyright {
+font-style: italic;
+}
+
 /* =================================
   Flexbox
 ==================================== */
 .contaner,
 .container-2  {
 display: flex;
+flex-wrap: wrap;
 flex-direction: column;
+height: 280px;
 }
