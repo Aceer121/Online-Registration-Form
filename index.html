@@ -1,5 +1,6 @@
                   <!DOCTYPE html>
                      <html lang="en">
+
                        <head>
                          <title>Online Registration Form</title>
                              <link rel="stylesheet" href="css/styles.css">
@@ -11,14 +12,18 @@
                          </head>
                    <body>
                     <div class="container">
-                    <form class="form-contact br">
+
                     <div class="code">
                     <h1 class="title">THE CODE REVIEW</h1>
                   </div>
+                    <header>
                     <h2>Signup for our newsletter</h2>
-                    <p>Get the latest news on how your code is doing right in your inbox</p>
+                    <p>Get the latest news on how your code is</p>
+                    <p>doing right in your inbox</p>
+                    <div class="t-border clearfix"></div>
+                    </header>
+                      <form class="form-contact br">
                       <h3>Contact Information</h3>
-
                     <label for="name">Full Name</label>
                     <input type="text" id="name" name="user-name" placeholder="required">
 
@@ -88,27 +93,27 @@
                                           </selct>
                                       <label for="zip">Zip Code</label>
                                       <input type="zip" id="zip" name="zip">
-                                      <label>select the newsletters you would like to receive</label>
-                                      <input type="checkbox" id="development" value="interest_development"
-                                        name="user_interest"><label class="light" for="development">HTML News</label><br>
+                                      <div class="t-border-2 clearfix"></div><br>
+                                      <div class="container-2">
+                                      <h3>Newsletter</h3>
+                                      <p>select the newsletters you would like to</p>
+                                      <p>receive</p><br>
+                                      <input type="checkbox" id="development" value="interest_development" name="user_interest">
+                                      <label class="light" for="development">HTML News</label><br>
                                         <input type="checkbox" id="design" value="interest_design" name="user_interest">
                                         <label class="light" for="design">CSS News</label><br>
-                                        <input type="checkbox" id="business" value="interest_business"
-                                      name="user_interest"><label class="light" for="business">Javascript News</label>
-                                  </div>
-
-                                  <div class="container-2">
-                                      <label>Newsletter format</label>
-                                          <input type="radio" id="_html" value="_html" name="_format"><label
-                                          for="_html" class="_html">HTML</label><br>
-                                          <input type="radio" id="_plaintext" value="_plaintext" name="_format"><label
-                                          for="_plaintext" class="_plaintext">Plain Text</label>
-                                      <label>Other topics like to hear about</label>
-                                  </div>
-
-                                        <textarea id="bio" name="user_bio">  </textarea>
+                                        <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light"
+                                        for="business">Javascript News</label><br><br>
+                                        <p>Newsletter format</p><br>
+                                          <input type="radio" id="_html" value="_html" name="_format">
+                                          <label for="_html" class="_html">HTML</label><br>
+                                          <input type="radio" id="_plaintext" value="_plaintext" name="_format">
+                                          <label for="_plaintext" class="_plaintext">Plain Text</label><br><br>
+                                        </div>
+                                        <label>Other topics like to hear about</label>
+                                        <textarea id="bio" name="user_bio"></textarea>
                                         <button type="submit" type="submit">Sign Up</button>
                                           <p class="copyright">Copyright 2021</p>
                                         </form>
                                          </body>
-                                       </html>
+                                         </html>
