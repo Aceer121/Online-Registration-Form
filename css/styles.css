@@ -32,7 +32,7 @@ header p {
 }
 
 .code {
-  background-color: #000;
+  background-color: rgb(34, 43, 53);
   /* margin: -10%; */
   padding: 10px;
 }
@@ -170,5 +170,39 @@ form>a {
 ==================================== */
 
 @media (min-width: 1024px) {
+
+  label {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+  }​
+
+       input[placeholder],
+      input[type="text"],
+      input[type="email"],
+       input[type="tel"],
+       input[type="street"],
+       input[type="city"],
+       input[type="zip"],
+       select {
+         border: none;
+         font-size: 16px;
+         height: auto;
+         outline: 0;
+         padding: 10px;
+         width: 80%;
+         background: #e8eeef;
+         box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+         margin-bottom: 30px;
+       }
+
+
+.block  {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 
 }
