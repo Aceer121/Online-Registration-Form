@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family:'Merriweather', Arial, sans-serif;
+  font-family:"Merriweather", Arial, sans-serif;
   color: darkgrey;
 }
 
@@ -22,7 +22,7 @@ header {
     border-top: double 15px black;
   }
 
-header, .code {
+header,.code {
   text-align: center;
 }
 
@@ -64,7 +64,7 @@ p {
   width: 90%;
 } */
 
-#container {
+.container {
   margin: 0 auto;
 }
 
@@ -75,11 +75,12 @@ p {
 label {
   display: block;
   margin-bottom: 8px;
+  color:#000;
 }
 
 input[placeholder],
 input[type="tel"],
-input[type="street"],
+input[type="text"],
 input[type="city"],
 input[type="zip"],
 textarea,
@@ -110,7 +111,7 @@ input[type="radio"] {
 }
 
 #zip {
-  max-width: 50%;
+  max-width: 15%;
 }
 
 .t-border-2 {
@@ -130,7 +131,6 @@ input[type="radio"] {
 
 button {
   cursor: pointer;
-  font-style: .875em;
   font-weight: 400;
   color: #fff;
   padding-left: 20px;
@@ -173,8 +173,9 @@ form>a {
 
   label {
     display: inline-block;
-    width: 50px;
-    text-align: right;
+    color:#000;
+    width: 10px;
+    text-align: left;
   }​
 
        input[placeholder],
@@ -199,8 +200,21 @@ form>a {
 
 .block  {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
 }
+
+.container,
+.container-2 {
+  width:50%;
+  margin: 50px auto;
+}
+
+
+.t-border {
+    padding: 0 1em;
+    width: 100%;
+    border-top: double 15px black;
+  }
 
 
 

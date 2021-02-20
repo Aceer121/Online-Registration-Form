@@ -1,121 +1,126 @@
-                  <!DOCTYPE html>
-                     <html lang="en">
+<!DOCTYPE html>
+   <html lang="en">
+       <head>
+       <title>Online Registration Form</title>
+           <link rel="stylesheet" href="css/styles.css">
+           <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap"
+            rel="stylesheet">
+             <meta charset="utf-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1">
+       </head>
+ <body>
+   <div class="code">
+   <h1 class="title">THE CODE REVIEW</h1>
+ </div>
+  <form class="form-contact br">
+  <div class="container">
 
-                       <head>
-                         <title>Online Registration Form</title>
-                             <link rel="stylesheet" href="css/styles.css">
-                               <link href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght
-                               @300&family=Manrope:wght@200;300;400&family=Maven+Pro&display=swap" rel="stylesheet">
-                               <meta charset="utf-8">
-                               <meta name="viewport" content="width=device-width,
-                         initial-scale=1">
-                         </head>
-                   <body>
-                    <div class="container">
 
-                    <div class="code">
-                    <h1 class="title">THE CODE REVIEW</h1>
+  <header>
+  <h2>Signup for our newsletter</h2>
+  <p>Get the latest news on how your code is doing right in your inbox</p>
+  <div class="t-border clearfix"></div>
+  </header>
+
+    <h3>Contact Information</h3>
+  <div class="block">
+  <label for="name">Full Name</label>
+  <input type="text" id="name" name="user-name" placeholder="required">
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="user_email" placeholder="required">
+
+      <label for="tel">Phone Number</label>
+      <input type="tel" id="tel" name="phone">
+
+      <label for="street">Street Address</label>
+      <input type="text" id="street" name="text">
+
+  <label for="text">City</label>
+  <input type="text" id="text" name="text">
+
+        <label for="text">State</label>
+        <select>
+          <option value="" selected="selected">Choose State</option>
+                  <option value="_alabama">Alabama</option>
+                      <option value="_alaska">Alaska</option>
+                          <option value="_arizona">Arizona</option>
+                            <option value="_arkansas">Arkansas</option>
+                                <option value="_califorina">California</option>
+                                  <option value="_colorado">Colorado</option>
+                                    <option value="_connecticut">Connecticut</option>
+                                      <option value="_delaware">Delaware</option>
+                                        <option value="_florida">Florida</option>
+                                        <option value="_georgia">Georgia</option>
+                                        <option value="_hawaii">Hawaii</option>
+                                        <option value="_idaho">Idaho</option>
+                                        <option value="_illinois">Illinois</option>
+                                        <option value="_indiana">Indiana</option>
+                                        <option value="_iowa">Iowa</option>
+                                        <option value="_kansas">Kansas</option>
+                                  <option value="_kentucky">Kentucky</option>
+                              <option value="_lousiana">Louisiana</option>
+                          <option value="_maine">Maine</option>
+                      <option value="_maryland">Maryland</option>
+              <option value="_massachusetts">Massachusetts</option>
+                <option value="_michigan">Michigan</option>
+                  <option value="_minnesota">Minnesota</option>
+                            <option value="_mississippi">Mississippi</option>
+                              <option value="_missouri">Missouri</option>
+                                <option value="_montana">Montana</option>
+                                    <option value="_nebraska">Nebraska</option>
+                                        <option value="_nevada">Nevada</option>
+                                          <option value="_new hampshire">New Hampshire</option>
+                                            <option value="_new mexico">New Mexico</option>
+                                              <option value="_new york">New York</option>
+                                              <option value="_north carolina">North Carolina</option>
+                                              <option value="_north dakota">North Dakota</option>
+                                              <option value="_ohio">Ohio</option>
+                                              <option value="_Oklahoma">Oklahoma</option>
+                                              <option value="_oregon">Oregon</option>
+                                              <option value="_pennsylvania">Pennsylvania</option>
+                                              <option value="_rhode island">Rhode Island</option>
+                                              <option value="_south carolina">South Carolina</option>
+                                              <option value="_south dakota">South Dakota</option>
+                                            <option value="_tennessee">Tennessee</option>
+                                        <option value="_texas">Texas</option>
+                                    <option value="_utah">Utah</option>
+                                    <option value="_vermont">Vermont</option>
+                                    <option value="_virginia">Virginia</option>
+                                <option value="_washington">Washington</option>
+                              <option value="_west">West Virginia</option>
+                            <option value="_Wisconsin">Wisconsin</option>
+                        <option value="_wyoming">Wyoming</option>
+                      </select>
+                    <label for="zip">Zip Code</label>
+                    <input type="text" id="zip" name="_zip">
+                    </div>
                   </div>
-                    <header>
-                    <h2>Signup for our newsletter</h2>
-                    <p>Get the latest news on how your code is</p>
-                    <p>doing right in your inbox</p>
-                    <div class="t-border clearfix"></div>
-                    </header>
-                      <form class="form-contact br">
-                      <h3>Contact Information</h3>
-                    <div class="block">
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" name="user-name" placeholder="required">
+                    <div class="container-2">
+                    <div class="t-border-2 clearfix"></div><br>
+                    <h3>Newsletter</h3>
+                    <p>select the newsletters you would like to</p>
+                    <p>receive</p><br>
+                    <input type="checkbox" id="development" value="interest_development" name="user_interest">
+                    <label class="light" for="development">HTML News</label><br>
+                      <input type="checkbox" id="design" value="interest_design" name="user_interest">
+                      <label class="light" for="design">CSS News</label><br>
+                      <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light"
+                      for="business">Javascript News</label><br><br>
+                      <p>Newsletter format</p><br>
 
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="user_email" placeholder="required">
+                        <input type="radio" id="_html" value="_html" name="_format">
+                        <label for="_html" class="_html">HTML</label><br>
 
-                        <label for="Phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
+                        <input type="radio" id="_plaintext" value="_plaintext" name="_format">
+                        <label for="_plaintext" class="_plaintext">Plain Text</label><br><br>
 
-                        <label for="street">Street Address</label>
-                        <input type="street" id="name" name="user-name">
-
-                    <label for="City">City</label>
-                    <input type="city" id="name" name="user-name">
-
-                          <label for="State">State</label>
-                          <select type="state" id="state" name="_state" placeholder="choose state">
-                                    <option value="_alabama">Alabama</option>
-                                        <option value="_alaska">Alaska</option>
-                                            <option value="_arizona">Arizona</option>
-                                              <option value="_arkansas">Arkansas</option>
-                                                  <option value="_califorina">California</option>
-                                                    <option value="_colorado">Colorado</option>
-                                                      <option value="_connecticut">Connecticut</option>
-                                                        <option value="_delaware">Delaware</option>
-                                                          <option value="_florida">Florida</option>
-                                                          <option value="_georgia">Georgia</option>
-                                                          <option value="_hawaii">Hawaii</option>
-                                                          <option value="_idaho">Idaho</option>
-                                                          <option value="_illinois">Illinois</option>
-                                                          <option value="_indiana">Indiana</option>
-                                                          <option value="_iowa">Iowa</option>
-                                                          <option value="_kansas">Kansas</option>
-                                                    <option value="_kentucky">Kentucky</option>
-                                                <option value="_lousiana">Louisiana</option>
-                                            <option value="_maine">Maine</option>
-                                        <option value="_maryland">Maryland</option>
-                                <option value=_"massachusetts">Massachusetts</option>
-                                  <option value="_michigan">Michigan</option>
-                                    <option value="_minnesota">Minnesota</option>
-                                              <option value="_mississippi">Mississippi</option>
-                                                <option value="_missouri">Missouri</option>
-                                                  <option value="_montana">Montana</option>
-                                                      <option value="_nebraska">Nebraska</option>
-                                                          <option value="_nevada">Nevada</option>
-                                                            <option value="_new hampshire">New Hampshire</option>
-                                                              <option value="_new mexico">New Mexico</option>
-                                                                <option value="_new york">New York</option>
-                                                                <option value="_north carolina">North Carolina</option>
-                                                                <option value="_north dakota">North Dakota</option>
-                                                                <option value="_ohio">Ohio</option>
-                                                                <option value="_Oklahoma">Oklahoma</option>
-                                                                <option value="_oregon">Oregon</option>
-                                                                <option value="_pennsylvania">Pennsylvania</option>
-                                                                <option value="_rhode island">Rhode Island</option>
-                                                                <option value="_south carolina">South Carolina</option>
-                                                                <option value="_south dakota">South Dakota</option>
-                                                              <option value="_tennessee">Tennessee</option>
-                                                          <option value="_texas">Texas</option>
-                                                      <option value="_utah">Utah</option>
-                                                      <option value="_vermont">Vermont</option>
-                                                      <option value="_virginia">Virginia</option>
-                                                  <option value="_washington">Washington</option>
-                                                <option value="_west">West Virginia</option>
-                                              <option value="_Wisconsin">Wisconsin</option>
-                                          <option value="_wyoming">Wyoming</option>
-                                          </selct>
-                                      <label for="zip">Zip Code</label>
-                                      <input type="zip" id="zip" name="_zip">
-                                      </div>
-                                      <div class="t-border-2 clearfix"></div><br>
-                                      <div class="container-2">
-                                      <h3>Newsletter</h3>
-                                      <p>select the newsletters you would like to</p>
-                                      <p>receive</p><br>
-                                      <input type="checkbox" id="development" value="interest_development" name="user_interest">
-                                      <label class="light" for="development">HTML News</label><br>
-                                        <input type="checkbox" id="design" value="interest_design" name="user_interest">
-                                        <label class="light" for="design">CSS News</label><br>
-                                        <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light"
-                                        for="business">Javascript News</label><br><br>
-                                        <p>Newsletter format</p><br>
-                                          <input type="radio" id="_html" value="_html" name="_format">
-                                          <label for="_html" class="_html">HTML</label><br>
-                                          <input type="radio" id="_plaintext" value="_plaintext" name="_format">
-                                          <label for="_plaintext" class="_plaintext">Plain Text</label><br><br>
-                                        </div>
-                                        <label>Other topics like to hear about</label>
-                                        <textarea id="bio" name="user_bio"></textarea>
-                                        <button type="submit" type="submit">Sign Up</button>
-                                          <p class="copyright">Copyright 2021</p>
-                                        </form>
-                                         </body>
-                                         </html>
+                      <label>Other topics like to hear about</label>
+                      <textarea id="bio" name="user_bio"></textarea>
+                      <button type="submit">Sign Up</button>
+                        <p class="copyright">Copyright 2021</p>
+                    </div>
+                      </form>
+                       </body>
+                       </html>
