@@ -174,7 +174,7 @@ form>a {
   label {
     display: inline-block;
     color:#000;
-    width: 10px;
+    width: 150px;
     text-align: left;
   }​
 
@@ -198,14 +198,15 @@ form>a {
        }
 
 
-.block  {
-  display: flex;
-  flex-direction:column;
-}
+       .block,
+       .flex-block  {
+         display: flex;
+         flex-direction:column;
+       }
 
 .container,
 .container-2 {
-  width:50%;
+  width:80%;
   margin: 50px auto;
 }
 
