@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 320px) {
 
 	* {
 		margin: 0;
@@ -11,6 +11,40 @@
 		color: darkgrey;
 	}
 
+	.code {
+		background-color: rgb(34, 43, 53);
+	  /* margin: -10%; */
+		padding: 10px;
+		width: 119%;
+		color: #fff;
+		text-align: center;
+	}
+
+
+
+	h2 {
+		width: 120.5%;
+		text-align: center;
+	}
+
+	.News-p {
+		width: 119%;
+		text-align: center;
+	}
+
+.Contact	{
+margin-left: 5%;
+}
+
+.block,
+.flex-block {
+display: flex;
+	flex-direction: column;
+	margin-right: -6.10%;
+	margin-left: 2.99%;
+}
+
+
 	fieldset {
 		border: none;
 	}
@@ -21,7 +55,7 @@
 
 	.t-border {
 		padding: 0 1em;
-		width: 100%;
+		width: 117%;
 		border-top: double 15px black;
 	}
 
@@ -113,6 +147,8 @@ button[type="submit"] {
 input[type="radio"] {
 		font-weight: bold;
 		margin: 0 4px 8px 0;
+		box-sizing: border-box;
+		padding: 0;
 	}
 
 	#zip {
@@ -123,6 +159,7 @@ input[type="radio"] {
 		padding: 0 1em;
 		width: 100%;
 		border-top: 3px solid #000;
+		margin-left: 20px;
 	}
 
 
@@ -181,15 +218,15 @@ input[type="radio"] {
 		background-color: rgb(34, 43, 53);
 	  /* margin: -10%; */
 		padding: 10px;
+		color: #fff;
+		text-align: center;
 	}
 
 	h3 {
 		color: #000;
-		margin-left: 60px;
-		margin-bottom: 30px;
 	}
 
-	.flex-p {
+	.news-p {
 		display: flex;
 		flex-direction: column;
 	}
@@ -228,12 +265,12 @@ input[type="radio"] {
   .flex-block {
 		flex-direction: column;
 		margin-right: 30px;
-
 	}
-.flex-block	{
-width:88%;
-border-radius: 5px;
-}
+
+	.flex-block {
+		width: 88%;
+		border-radius: 5px;
+	}
 
 	.container,
 .container-2 {
@@ -244,15 +281,7 @@ border-radius: 5px;
 	.flex {
 		display: flex;
 		flex-direction: column;
-		margin-top: 50px;
-	}
-
-	.flex-label {
-		display: flex;
-		flex-direction: row;
-		margin-left:60px;
-		margin-top: -20px;
-		margin-bottom: 25px;
+		margin: 0 auto;
 	}
 
 	.t-border {
@@ -261,11 +290,17 @@ border-radius: 5px;
 		margin: 50px;
 		border-top: double 15px black;
 	}
-.select-p	{
-margin: 20px;
-}
+
+	.select-p {
+		margin: 20px;
+	}
 
 	.Newsletter {
-	margin-bottom: 50px;
+		margin-bottom: 50px;
 	}
+}
+
+label.light {
+	font-weight: 300;
+	display: inline;
 }

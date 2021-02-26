@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -10,20 +11,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"> </head>
 
 <body>
-	<div class="code">
-		<legend>THE CODE REVIEW</legend>
-	</div>
-	<form class="form-contact br">
-		<fieldset>
+	<fieldset>
+		<div class="code">
+			<h1>THE CODE REVIEW</h1> </div>
+		<form class="form-contact br">
 			<div class="container">
 				<header>
 					<h2>Signup for our newsletter</h2>
-					<div class="flex-p">
+					<div class="News-p">
 						<p>Get the latest news on how your code is doing right in your inbox</p>
 					</div>
 					<div class="t-border clearfix"></div>
 				</header>
-				<h3>Contact Information</h3>
+				<div class="Contact">
+					<h3>Contact Information</h3> </div>
 				<div class="block">
 					<div class="flex-block">
 						<label for="name">Full Name</label>
@@ -96,46 +97,42 @@
 						</select>
 						<label for="zip">Zip Code</label>
 						<input type="text" id="zip" name="_zip"> </div>
+	</div>
+	</fieldset>
+	<div class="container-2">
+		<div class="t-border-2 clearfix"></div>
+		<br>
+		<fieldset>
+			<div class="flex">
+				<h3>Newsletter</h3>
+				<div class="select-p">
+					<p>select the newsletters you would like to recieve</p>
 				</div>
-		</fieldset>
-		<div class="container-2">
-			<div class="t-border-2 clearfix"></div>
-			<br>
-			<fieldset>
-				<div class="flex">
-					<h3>Newsletter</h3>
-					<div class="select-p">
-						<p>select the newsletters you would like to recive</p>
-					</div>
-					<input type="checkbox" id="development" value="interest_development" name="user_interest">
-					<div class="flex-label">
-						<label class="light" for="development">HTML News</label>
-					</div>
-					<input type="checkbox" id="design" value="interest_design" name="user_interest">
-					<div class="flex-label">
-						<label class="light" for="design">CSS News</label>
-					</div>
-					<input type="checkbox" id="business" value="interest_business" name="user_interest">
-					<div class="flex-label">
-						<label class="light" for="business">Javascript News</label>
-					</div>
-					<input type="radio" id="_html" value="_html" name="_format">
-					<div class="flex-label">
-						<div class="Newsletter">
-							<h3>Newsletter format</h3> </div>
-						<label for="_html" class="_html">HTML</label>
-					</div>
-					<input type="radio" id="_plaintext" value="_plaintext" name="_format">
-					<div class="flex-label">
-						<label for="_plaintext" class="_plaintext">Plain Text</label>
-					</div>
-					<label>Other topics like to hear about</label>
-					<textarea id="bio" name="user_bio"></textarea>
-					<button type="submit">Sign Up</button>
-					<p class="copyright">Copyright 2021</p>
+				<input type="checkbox" id="development" value="interest_development" name="user_interest">
+				<label class="light" for="development">HTML News</label>
+				<br>
+				<input type="checkbox" id="design" value="interest_design" name="user_interest">
+				<label class="light" for="design">CSS News</label>
+				<br>
+				<input type="checkbox" id="business" value="interest_business" name="user_interest">
+				<label class="light" for="business">Javascript News</label>
+				<br>
+				<div class="Newsletter">
+					<p>Newsletter format</p>
 				</div>
-		</div>
-		</fieldset>
+				<input type="radio" id="_html" value="_html" name="_format">
+				<label for="_html" class="_html">HTML</label>
+				<br>
+				<input type="radio" id="_plaintext" value="_plaintext" name="_format">
+				<label for="_plaintext" class="_plaintext">Plain Text</label>
+				<br>
+				<label>Other topics like to hear about</label>
+				<textarea id="bio" name="user_bio"></textarea>
+				<button type="submit">Sign Up</button>
+				<p class="copyright">Copyright 2021</p>
+			</div>
+	</div>
+	</fieldset>
 	</form>
 </body>
 
