@@ -80,7 +80,7 @@ h3 {
 		color: #000;
 	}
 
-	.form-contact {
+	.container br {
   /* max-width: 300px; */
 		margin: 10px auto 0 auto;
 		padding: 10px 20px;
@@ -108,7 +108,7 @@ p {
 	}
 
 	#bio {
-		height: 200px;
+		height: 100px;
 	}
 
 	label {
@@ -163,7 +163,9 @@ input[type="radio"] {
 	}
 
 
-
+.flex	{
+margin-left: 20px;
+}
 
 /*DRY CLASS------------- */
 
@@ -179,7 +181,7 @@ input[type="radio"] {
 		padding-right: 20px;
 		text-transform: uppercase;
 		height: 60px;
-		width: 50%;
+		width: 100%;
 		border-radius: 5px;
 		border: 1px solid #52bab3;
 		text-align: center;
@@ -195,6 +197,15 @@ input[type="radio"] {
 	form>a {
 		font-size: .7em;
 	}
+
+.select-p	{
+color: #000;
+}
+
+
+.Newsletter	{
+color: #000;
+}
 
 	.copyright {
 		margin-top: 10px;
@@ -222,6 +233,20 @@ input[type="radio"] {
 		text-align: center;
 	}
 
+
+
+
+
+.Contact	{
+margin-left:50px;
+}
+
+
+	h2 {
+margin-left: 20%;
+	}
+
+
 	h3 {
 		color: #000;
 	}
@@ -236,7 +261,7 @@ input[type="radio"] {
 	}
 
 	label {
-		display: inline-block;
+		display: inline;
 		color: #000;
 		width: 150px;
 		text-align: center;
@@ -263,7 +288,8 @@ input[type="radio"] {
 
 	.block,
   .flex-block {
-		flex-direction: column;
+		display: flex;
+		flex-direction: row;
 		margin-right: 30px;
 	}
 
@@ -286,7 +312,7 @@ input[type="radio"] {
 
 	.t-border {
 		padding: 0 1em;
-		width: 80%;
+		width: 100%;
 		margin: 50px;
 		border-top: double 15px black;
 	}
@@ -298,9 +324,17 @@ input[type="radio"] {
 	.Newsletter {
 		margin-bottom: 50px;
 	}
-}
 
-label.light {
+
+label.checkbox {
 	font-weight: 300;
 	display: inline;
+	}
+
+	label.radio {
+		font-weight: 300;
+		display: inline;
+		}
+
+
 }
