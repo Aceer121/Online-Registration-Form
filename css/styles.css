@@ -261,7 +261,7 @@ margin-left: 20%;
 	}
 
 	label {
-		display: inline;
+		display: inline-block;
 		color: #000;
 		width: 150px;
 		text-align: center;
@@ -320,6 +320,7 @@ margin-left: 20%;
 	.select-p {
 		margin: 20px;
 	}
+
 
 	.Newsletter {
 		margin-bottom: 50px;
