@@ -73,6 +73,7 @@ header p {
 		background-color: rgb(34, 43, 53);
   /* margin: -10%; */
 		padding: 10px;
+		text-align: center;
 	}
 
 	h2,
@@ -223,7 +224,7 @@ color: #000;
   Media query
 ==================================== */
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
 
 	.code {
 		background-color: rgb(34, 43, 53);
@@ -233,17 +234,22 @@ color: #000;
 		text-align: center;
 	}
 
+	h1 {
+	margin-right: 150px;
+	}
 
-
-
+	h2 {
+		width: 110.5%;
+	 text-align: center;
+}
 
 .Contact	{
 margin-left:50px;
 }
 
 
-	h2 {
-margin-left: 20%;
+	 {
+margin-left: 120px;
 	}
 
 
@@ -252,8 +258,7 @@ margin-left: 20%;
 	}
 
 	.news-p {
-		display: flex;
-		flex-direction: column;
+	margin-left: 10%;
 	}
 
 	fieldset {
@@ -305,8 +310,7 @@ margin-left: 20%;
 	}
 
 	.flex {
-		display: flex;
-		flex-direction: column;
+		display: block;
 		margin: 0 auto;
 	}
 
@@ -323,19 +327,37 @@ margin-left: 20%;
 
 
 	.Newsletter {
-		margin-bottom: 50px;
+		margin-bottom: 80px;
 	}
 
 
-label.checkbox {
+.light {
+display: block;
+}
+
+
+
+
+	input[type="checkbox"],
+input[type="radio"] {
+		font-weight: bold;
+		margin: 0 4px 8px 0;
+		box-sizing: border-box;
+		padding: 0;
+	}
+
+
+
+
+
+
+
+label.checkbox,
+label.radio {
 	font-weight: 300;
 	display: inline;
 	}
 
-	label.radio {
-		font-weight: 300;
-		display: inline;
-		}
 
 
 }
