@@ -291,16 +291,26 @@ margin-left: 120px;
 		margin-bottom: 30px;
 	}
 
+		.main
+width:600px;
+margin: auto;
+	}
+
+
+
 	.block,
   .flex-block {
 		display: flex;
 		flex-direction: row;
-		margin-right: 30px;
+		justify-content: flex-start;
 	}
 
 	.flex-block {
-		width: 88%;
+		width: 600px;
 		border-radius: 5px;
+		justify-content: flex-start;
+		align-items:baseline;
+		margin:auto;
 	}
 
 	.container,
