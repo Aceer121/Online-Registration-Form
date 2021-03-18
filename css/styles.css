@@ -8,8 +8,13 @@
 
 	body {
 		font-family: "Merriweather", Arial, sans-serif;
-		color: darkgrey;
 	}
+
+input:focus {
+color: #000;
+}
+
+
 
 	.code {
 		background-color: rgb(34, 43, 53);
@@ -27,14 +32,12 @@
 		text-align: center;
 	}
 
-	.News-p {
+	.news-p {
 		width: 119%;
 		text-align: center;
+		color:darkgrey;
 	}
 
-.Contact	{
-margin-left: 5%;
-}
 
 .block,
 .flex-block {
@@ -59,10 +62,7 @@ display: flex;
 		border-top: double 15px black;
 	}
 
-	header,
-legend {
-		text-align: center;
-	}
+
 
 	header h2,
 header p {
@@ -89,9 +89,11 @@ h3 {
 	}
 
 	legend {
-		color: #fff;
-		margin: 15px;
-		font-size: 20px;
+		color: #000;
+		margin: -5px;
+		font-size: 1.17em;
+		font-weight: bolder;
+		margin-left: 10px;
 	}
 
 /* h1,
@@ -190,6 +192,7 @@ margin-left: 20px;
 		display: block;
 	}
 
+
 	button:hover {
 		opacity: .75;
 	}
@@ -204,8 +207,9 @@ color: #000;
 }
 
 
-.Newsletter	{
+.newsletter	{
 color: #000;
+margin:10px;
 }
 
 	.copyright {
@@ -234,12 +238,9 @@ color: #000;
 		text-align: center;
 	}
 
-	h1 {
-	margin-right: 150px;
-	}
+
 
 	h2 {
-		width: 110.5%;
 	 text-align: center;
 }
 
@@ -248,18 +249,12 @@ margin-left:50px;
 }
 
 
-	 {
-margin-left: 120px;
-	}
-
-
 	h3 {
 		color: #000;
+		margin-left: 20px;
 	}
 
-	.news-p {
-	margin-left: 10%;
-	}
+
 
 	fieldset {
 		border: none;
@@ -315,7 +310,7 @@ margin: auto;
 
 	.container,
 .container-2 {
-		width: 80%;
+		width: 90%;
 		margin: 50px auto;
 	}
 
@@ -326,17 +321,17 @@ margin: auto;
 
 	.t-border {
 		padding: 0 1em;
-		width: 100%;
-		margin: 50px;
+		margin: 20px;
 		border-top: double 15px black;
 	}
 
 	.select-p {
 		margin: 20px;
+		color: #000;
 	}
 
 
-	.Newsletter {
+	.newsletter {
 		margin-bottom: 80px;
 	}
 
