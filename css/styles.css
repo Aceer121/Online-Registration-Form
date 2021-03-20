@@ -6,9 +6,7 @@
 body {
   font-family: "Merriweather", Arial, sans-serif;
 }
-input:focus {
-  color: #000;
-}
+
 h2 {
   text-align: center;
 }
